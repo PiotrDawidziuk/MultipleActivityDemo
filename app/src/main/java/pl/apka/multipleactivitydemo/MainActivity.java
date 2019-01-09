@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
         Intent intent = new Intent(getApplicationContext(), SecondActivity.class);
 
+        intent.putExtra("age", 29);
         startActivity(intent);
         
     }
