@@ -9,10 +9,11 @@ public class SecondActivity extends AppCompatActivity {
 
     public void goToNext(View view) {
 
-        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+       // Intent intent = new Intent(getApplicationContext(), MainActivity.class);
 
-        startActivity(intent);
+       // startActivity(intent);
 
+        finish();
     }
 
     @Override
