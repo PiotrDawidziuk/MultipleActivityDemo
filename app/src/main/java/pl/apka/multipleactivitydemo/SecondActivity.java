@@ -23,8 +23,7 @@ public class SecondActivity extends AppCompatActivity {
         setContentView(R.layout.activity_second);
 
         Intent intent = getIntent();
-        int age = intent.getIntExtra("age",0);
-
-        Toast.makeText(this, "Age is "+age, Toast.LENGTH_LONG).show();
+        String name = intent.getStringExtra("name");
+        Toast.makeText(this, "The name is: "+name, Toast.LENGTH_LONG).show();
     }
 }
